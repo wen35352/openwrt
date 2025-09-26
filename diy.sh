@@ -18,7 +18,7 @@ echo 'src-git UA3F https://github.com/SunBK201/UA3F.git' >>feeds.conf.default
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
 git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
 echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >>feeds.conf.defaultsrc-git packages  https://github.com/openwrt/packages.git;openwrt-24.10
-src-git luci      https://github.com/openwrt/luci.git;openwrt-24.10
-src-git routing   https://github.com/openwrt/routing.git;openwrt-24.10
-src-git telephony https://github.com/openwrt/telephony.git;openwrt-24.10
-src-git packages  https://github.com/openwrt/packages.git;openwrt-24.10
+src-git luci      https://github.com/openwrt/luci.git
+src-git routing   https://github.com/openwrt/routing.git
+src-git telephony https://github.com/openwrt/telephony.git
+src-git packages  https://github.com/openwrt/packages.git
